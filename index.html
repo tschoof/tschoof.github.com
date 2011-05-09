@@ -9,17 +9,21 @@
 	<link rel="Shortcut Icon" type="image/x-icon" href="/fav.png" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta name="robots" content="all" />
-	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta http-equiv="imagetoolbar" content="false" />	
+	<meta name="MSSmartTagsPreventParsing" content="true" />	
 	<style>
 		@font-face { font-family: 'Ubuntu'; font-weight: normal; src: url(/Ubuntu-R.ttf); }
+		@font-face { font-family: 'Ubuntu'; font-weight: lighter; src: url(/Ubuntu-L.ttf); }
 		@font-face { font-family: 'Ubuntu'; font-weight: bold; src: url(/Ubuntu-B.ttf); }
 		@font-face { font-family: 'Ubuntu'; font-style: italic; src: url(/Ubuntu-I.ttf); }
 		* { padding: 0; margin: 0; }
-		p { color: #fff; font-family: 'Ubuntu'; font-weight: normal; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		p { color: #fff; font-family: 'Ubuntu'; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
 		h1 { color: #fff; font-family: 'Ubuntu'; font-size: 24px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
 		a { color: #fff; text-decoration: underline 1px solid; }
-		a:hover { color: #fff; opacity: 0.8;  }
+a:hover { 
+		color: #fff; 
+		opacity: 0.6;
+		-webkit-transition: 0.1s linear; 
+}
 		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 50px 0 auto; }
 		#about { width: 360px; padding: 0 0 0 100px; margin: 100px 50px 0 auto !important; }
 		#connect { width: 340px; padding: 0 0 0 100px; margin: 0 0 0 0 !important; }
@@ -32,10 +36,15 @@
 
 <!-- swap out for information about yourself -->
 <div id="about">
-			<p>Timm's currently working on his personal page and his blog. The blog is online at <a href="http://blog.timmschoof.com">blog.timmschoof.com</a>, but keep in mind that it still is under construction.<br>
-			<p>The contents of this domain can be found on Timm's <a href="https://github.com/tschoof/">github.</a></p> 
-			<p>Meanwhile, you can follow him on <a href="http://twitter.com/tschoof">Twitter</a>.</p>
+		<p>
+			Timm studies law at the University of Hamburg. He likes good coffee, good food, 			good films, that kind of stuff. He also is a tech nut, nerd, geek, whatever you might call 				these people. 
+		</p><p>	He writes about his life, things he's interested in an things he wants to get off his chest 				on his <a href="http://blog.timmschoof.com">blog</a>. It's brand new, therefore to be 				considererd under construction.
+		</p><p>	You can follow him on <a href="http://twitter.com/tschoof">twitter</a>. He loves 				twitter.<br>
+			However, you can also contact him on <a href="http://facebook.com/tschoof">facebook</a>.
+		</p><p>	All contents of timmschoof.com and its subdomains are available as public repositories on <a href="https://github.com/tschoof/">github</a>.
+		</p>
 </div>
+
 
 <!--include jquery & backstretch-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
