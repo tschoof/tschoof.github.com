@@ -1,3 +1,3 @@
 #! /bin/bash
-git add --all; git commit -m 'change'; git push origin gh-pages
+git add --all; git commit -m 'change'; git push master
 
