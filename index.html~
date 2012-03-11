@@ -62,7 +62,7 @@ a:hover {
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.backstretch.min.js"></script>
 <script type="text/javascript">
-	$.backstretch("bg.jpg", {speed: 150});
+	$.backstretch("bg2.jpg", {speed: 150});
 </script>
 
 </body>	
