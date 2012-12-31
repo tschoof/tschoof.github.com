@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold&v1' rel='stylesheet' type='text/css'>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Timm Schoof</title>
+	<link rel="Shortcut Icon" href="/fav.png" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #333; }
+		/* p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; } */
+		p { color: #fff; font-family: "Ubuntu", sans-serif; font-weight: regular; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.5); }
+		a:hover { /*color: #990000;border-bottom: 1px solid rgba(255,255,255,1); */ opacity: 0.7; -webkit-transition: 0.07s linear; -moz-transition: 0.07s linear; }
+		/* #monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; } */
+		#about { width: 360px; padding: 0 150px 0 0; margin: 60px auto 0 60px !important; } 
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			/* background-image { opacity: 0.2; }*/
+		}
+	</style>
+</head>	
+    
+<body>
+
+<!-- swap out for a logo
+<div id="monogram">
+	<img src="monogram.png" />
+</div> -->
+
+<!-- swap out for information about yourself -->
+<div id="about">
+	<p>Timm studies law at the University of Hamburg. Currently, however, he is studying at Trinity College, Dublin. <a href="http://en.wikipedia.org/wiki/Erasmus_programme">Erasmus</a> is awesome.</p>
+
+<p>He has a <a href="http://blog.timmschoof.com">blog</a>, is on <a href="https://twitter.com/tschoof">Twitter</a> and <a href="https://alpha.app.net/tschoof">App.net</a>.<br/>
+You can also send him an <a href="mailto:hello@timmschoof.com">email</a> or contact him via <a href="http://facebook.com/tschoof">Facebook</a>, if that&#8217;s something you&#8217;re interested in.</p>
+
+<p>Sometimes, he posts photos on <a href="http://www.flickr.com/photos/timm_schoof/">Flickr</a>.</p>
+
+<p>He doesn&#8217;t really know programming, but uses <a href="https://github.com/tschoof">Github</a> and <a href="http://jekyllrb.com">Jekyll</a> for this website thing.</p>
+
+<p><a href="http://thepersonalpage.me">Personal Page</a> thanks and credits to <a href="http://nazhamid.com/">Naz Hamid</a>. </p>
+
+</div>
+
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("bg.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+</body>	
+</html>
