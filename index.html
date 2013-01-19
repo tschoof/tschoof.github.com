@@ -1,16 +1,124 @@
-<!DOCTYPE html>
-<head>  
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,bold&v1' rel='stylesheet' type='text/css'>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!-- Personal Page concept: Naz Hamid. http://thepersonalpage.me --> 
+<!-- Using the Ubuntu Font Family. License: http://font.ubuntu.com/ufl/ -->
+<!-- Background Photo taken by Ariane Azario (http://thebigdublinski.wordpress.com/), on the top of the National Museum of Scotland, Edinburgh. -->
+<!doctype html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold&v1' rel='stylesheet' type='text/css'>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Timm Schoof</title>
-	<meta name="author" content="Timm Schoof" />
-	<meta name="robots" content="all">
-	<link rel="stylesheet" media="screen" href="/stylesheets/style.css"/>
-</head>
-<body>
-<div align="center" ; >
-<h1 style="font-weight: normal; font-size: 100px; margin-top: 300px; ">redesigning</h1>
-</div>
+	<link rel="Shortcut Icon" href="/fav.png" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body {  }
+		/* p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; } */
+		p { color: #fff; font-family: "Ubuntu", sans-serif; font-weight: regular; font-size: 16px; line-height: 24px; margin-bottom: 21px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; /* border-bottom: 1px solid rgba(255,255,255,0.5); */ }
+		a:hover { /* border-bottom: 1px solid rgba(255,255,255,1); */  opacity: 0.5;  -webkit-transition: 0.09s linear; -moz-transition: 0.09s linear; }
+		/* #monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; } */
+		#visibility { 		background-color: 
+							/* rgba(233,93,34,0.5); */ 	/* orange, ‘scarf’ colour */
+							/* rgba(1,120,144,0.4);	*/	/* blue/cyan */
+							/* rgba(70,90,170,0.38); */		/* more blue/violet */
+							 rgba(28, 121, 165, 0.38) ;		/* another one */
+							/* rgba(160,38,0,0.52); 	*/		/* new take on orange */
+							/* rgba(35, 177, 0, 0.47);	*/		/* good green*/
+							/* rgba(54, 201, 18, 0.54);	*/			/* good green II */
+							/* rgba(111,14,146,0.3); */ 	/* violet */
+							/* rgba(71,4,95,0.3);*/  	/* violet II */
+							/* rgba(90,35,110,0.3); */  	/* violet III */						
+							  /* rgba(10,171,29,0.5);  */	/* green */
+							/* textblock background colour, isolated */ 
+							/* -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px; */
+							 -webkit-border-top-right-radius: 25px;
+							-webkit-border-bottom-right-radius: 25px;
+							-moz-border-radius-topright: 25px;
+							-moz-border-radius-bottomright: 25px;
+							border-top-right-radius: 25px;
+							border-bottom-right-radius: 25px; 
+							width: 350px; 
+							padding: 20px 12px 1px 35px;  
+							margin: 125px auto 0 0px; 
+							/* position:absolute; bottom:0;
+							margin: auto auto 190px 0px; */
+}
+		#about { width: 350px; padding: 0 0 0 0; opacity: 1.0; }
+		#credits {width: auto; margin-right: 5px; margin-left: 5px; margin-bottom: 0px; position: absolute; bottom:5px; left: 5px;  }
+		#credits p {color: #A3A3A3; font-size: 14px; margin-bottom: 0px; }
+		#credits a {color: #A3A3A3;}
+		@media (max-width: 767px) {
+			/* #monogram { position: relative; width: auto; padding: 20px; margin: 0; } */
+			#visibility { 	background-color: rgba(28, 121, 165,0.74); /* background colour narrow page whole height, works in combination w body bg colour */ 
+							position: absolute; 
+							width: auto; 
+							min-height: 100%; 
+							margin: 0; 
+							padding: 10px 10px 1px 10px;  
+							-webkit-border-radius: 0px; 
+							-webkit-border-radius: 0px; 
+							-khtml-border-radius: 0px; 
+							border-radius: 0px;
+}
+			#about { position: relative; width: auto; padding: 20px; margin: 0; !important; }
+			/*background-image { opacity: 0.2; }*/
+			body { background-color: rgba(16,16,16,1.0); /* page background colour, beneath #visibility colour, works in combination */} 
+			#credits { 
+							visibility: hidden; }
+}
+	@media (max-height: 550px) {
+	#credits { 
+							visibility: hidden; }
+	}
+	</style>
+</head>	
 
-</body>
+<body>
+
+<!-- swap out for a logo
+<div id="monogram">
+	<img src="monogram.png" />
+</div> -->
+
+<!-- swap out for information about yourself -->
+<div id="visibility">
+<div id="about">
+	<p>Timm studies law at the University of Hamburg. Currently, however, he is studying at Trinity College, Dublin. <a href="http://en.wikipedia.org/wiki/Erasmus_programme">Erasmus</a> is awesome.</p>
+
+<p>He has a <a href="http://blog.timmschoof.com">Blog</a> and is on <a href="https://twitter.com/tschoof">Twitter</a> and <a href="https://alpha.app.net/tschoof">App.net</a>. He does like technology. </p>
+
+<p>You can also send him an <a href="mailto:hello@timmschoof.com">email</a> or contact him via <a href="http://facebook.com/tschoof">Facebook</a>, if that&#8217;s something you&#8217;re interested in.</p>
+
+<p>Sometimes, he puts photos on <a href="http://www.flickr.com/photos/timm_schoof/">Flickr</a>.</p>
+
+<p>All of this site's content is on <a href="https://github.com/tschoof">GitHub</a>.</p>
+
+
+</div>
+</div>
+<div id="credits">
+<p>Thanks to <a href="http://thebigdublinski.wordpress.com">Ariane Azario</a> for this picture.</p>
+</div>
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("bg.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+</body>	
 </html>
