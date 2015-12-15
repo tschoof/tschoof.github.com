@@ -29,26 +29,26 @@
 							/* rgba(233,93,34,0.5); */ 	/* orange, ‘scarf’ colour */
 							/* rgba(1,120,144,0.4);	*/	/* blue/cyan */
 							/* rgba(70,90,170,0.38); */		/* more blue/violet */
-							 /*rgba(28, 121, 165, 0.5) ;*/		/* another one */
+							rgba(105,105,105,0.3);		/* grey */	
+							 /*rgba(28, 121, 165, 0.5) ;		/* another one */ */
 							/* rgba(160,38,0,0.52); 	*/		/* new take on orange */
 							/* rgba(35, 177, 0, 0.47);	*/		/* good green*/
 							/* rgba(54, 201, 18, 0.54);	*/			/* good green II */
 							/* rgba(111,14,146,0.3); */ 	/* violet */
 							/* rgba(71,4,95,0.3);*/  	/* violet II */
-							 /*rgba(90,35,110,0.3);   */	/* violet III */
-							 rgba(105,105,105,0.3);		/* grey */				
+							/* rgba(90,35,110,0.3); */  	/* violet III */						
 							  /* rgba(10,171,29,0.5);  */	/* green */
 							/* textblock background colour, isolated */ 
 							/* -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px; */
-							 -webkit-border-top-left-radius: 25px;
-							-webkit-border-bottom-left-radius: 25px;
-							-moz-border-radius-topleft: 25px;
-							-moz-border-radius-bottomleft: 25px;
-							border-top-left-radius: 25px;
-							border-bottom-left-radius: 25px; 
+							 -webkit-border-top-right-radius: 25px;
+							-webkit-border-bottom-right-radius: 25px;
+							-moz-border-radius-topright: 25px;
+							-moz-border-radius-bottomright: 25px;
+							border-top-right-radius: 25px;
+							border-bottom-right-radius: 25px; 
 							width: 350px; 
 							padding: 20px 12px 1px 35px;  
-							margin: 125px 0px 0 auto; 
+							margin: 125px auto 0 0px; 
 							/* position:absolute; bottom:0;
 							margin: auto auto 190px 0px; */
 }
@@ -112,7 +112,7 @@
 <p><a href='https://alpha.app.net/tschoof' class='adn-button' rel='me' data-type='follow' data-width='204' data-height='38' data-user-id='@tschoof'>Timm on app.net</a></p>
 </div>
 <div id="credits">
-<p>Kudos to <a href="http://silvandaehn.de/">Silvan Dähn</a> for this photo.</p>
+<p>Thanks to <a href="http://thebigdublinski.wordpress.com">Ariane Azario</a> for this photo.</p>
 </div>
 <!--include jquery & backstretch-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -121,7 +121,7 @@
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("bg2.jpg", {speed: 150});
+             $.backstretch("bg.jpg", {speed: 150});
          }
       })
       .resize();//trigger resize on page load
