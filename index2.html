@@ -29,7 +29,7 @@
 							/* rgba(233,93,34,0.5); */ 	/* orange, ‘scarf’ colour */
 							/* rgba(1,120,144,0.4);	*/	/* blue/cyan */
 							/* rgba(70,90,170,0.38); */		/* more blue/violet */
-							rgba(78, 84, 95, 0.5);		/* grey */	
+							rgba(105,105,105,0.9);		/* grey */	
 							 /*rgba(28, 121, 165, 0.5) ;		/* another one */ */
 							/* rgba(160,38,0,0.52); 	*/		/* new take on orange */
 							/* rgba(35, 177, 0, 0.47);	*/		/* good green*/
@@ -41,17 +41,17 @@
 							/* textblock background colour, isolated */ 
 							height: 100%;
 							width: 350px; 
-							padding: 20px 18px 1px 35px;  
-							margin: 125px 0 0 auto; 
+							padding: 20px 12px 1px 35px;  
+							margin: 125px auto 0 0px; 
 							/* position:absolute; bottom:0;
 							margin: auto auto 190px 0px; */
 }
 		#about { width: 350px; padding: 0 0 0 0; opacity: 1.0; }
 		#button { visibility:hidden;}
-		#credits {width: auto; margin-right: 5px; margin-left: 5px; margin-bottom: 0px; position: absolute; bottom:5px; right: 5px;  }
+		#credits {width: auto; margin-right: 5px; margin-left: 5px; margin-bottom: 0px; position: absolute; bottom:5px; left: 5px;  }
 		#credits p {color: #E7E7E7; font-size: 14px; margin-bottom: 0px; }
 		#credits a {color: #E7E7E7;}
-		@media (max-width: 200px) {
+		@media (max-width: 767px) {
 			/* #monogram { position: relative; width: auto; padding: 20px; margin: 0; } */
 			#visibility { 	background-color: rgba(105, 105, 105,0.64); /* background colour narrow page whole height, works in combination w body bg colour */ 
 							position: absolute; 
@@ -104,7 +104,7 @@
 </div>
 
 <div id="credits">
-<p>photo by <a href="http://silvandaehn.com/">Silvan Dähn</a></p>
+<p>Kudos to <a href="http://silvandaehn.com/">Silvan</a> for the photo.</p>
 </div>
 <!--include jquery & backstretch-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -113,7 +113,7 @@
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("bg.jpg", {speed: 150});
+             $.backstretch("bg2.jpg", {speed: 150});
          }
       })
       .resize();//trigger resize on page load
